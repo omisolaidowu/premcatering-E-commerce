@@ -1,0 +1,152 @@
+"name":"JSON_Login",
+            "client_id":"jeMM43Olrr",
+            "firm_code":"5ntJOPXqQb",
+            "type":"C",
+            "userID":"VT071560",
+            "password":"QDXo4689",
+            "fromIP":"70.169.110.226"
+
+
+MUO WP Article Starts Here:
+
+<h2>1. Get a Local Server Management Tool</h2>
+Getting a local server management tool helps if you don&#39;t plan to host your WordPress website right away.<br />
+<br />
+It means you can customize and run WordPress on your localhost to see how it looks before pushing it out to the world.<br />
+<br />
+For this, you can download and install <a href="https://www.apachefriends.org/download.html" rel="noopener noreferrer" target="_blank">Apache&#39;s XAMP</a> if you don&#39;t already have it.<br />
+&nbsp;
+<h2>2. Set Up XAMP&#39;s phpMyAdmin and WordPress</h2>
+To start building your website with WordPress, head over to <a href="https://wordpress.org/download/" rel="noopener noreferrer" target="_blank">wordpress.org</a> and download the latest WordPress version to your local storage.<br />
+<br />
+Extract the downloaded zip file. Copy the extracted folder and paste it into <strong>XAMP&#39;s htdocs </strong>folder​​​​​.<br />
+<br />
+You can find this folder by typing <strong>htdocs</strong> in your computer&#39;s search bar. Then click <strong>XAMP htdocs folder</strong> from the results. Or you can find it inside XAMP&#39;s installation location.<br />
+<br />
+Next, open the XAMP app on your PC. Then start <strong>Apache</strong> and <strong>MySQL</strong> by clicking the <strong>Start </strong>button<strong> </strong>next to each of them.<br />
+<br />
+<img alt="Xamp server interface" height="551" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/Xamp-server-interface.jpg" width="1093" /> Click the <strong>Admin</strong> button next to <strong>MySQL</strong> to open the <strong>phpMyAdmin</strong> localhost server via your default browser.<br />
+<br />
+Open a new tab on your browser and go to <strong>localhost/wordpress. </strong>Choose a language and hit <strong>Continue</strong>​​​​.<br />
+<br />
+<img alt="WordPress language setting" height="839" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/Wordpress-language-setting.png" width="1351" /> You should now see the following page if all went well at this stage. Click <strong>Let&#39;s go!</strong><br />
+<br />
+<img alt="WordPress set up page" height="888" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-set-up-page.jpg" width="1646" />
+<h2>3. Create a Database for WordPress With phpMyAdmin</h2>
+WordPress ultimately requires that you first create and link it to a database before installation.<br />
+<br />
+So hop back into the phpMyAdmin localhost you opened earlier and follow these steps for creating a database:<br />
+<br />
+From the top menu bar of the <strong>phpMyAdmin</strong> page, click <strong>Databases</strong> to create a new database for your WordPress website.<br />
+<br />
+<img alt="phpMyAdmin interface" height="478" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-interface.jpg" width="1463" /> Type in a preferred name for your database and click <strong>Create</strong>​​.<br />
+<br />
+<img alt="phpMyAdmin database creation page" height="629" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-database-creation-page.jpg" width="1264" /> Click <strong>phpMyAdmin </strong>at the top left corner of the web app.<br />
+<br />
+Then look to the top panel of phpMyAdmin and click <strong>User accounts</strong>.<br />
+<br />
+<img alt="phpMyAdmin top menu" height="516" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-top-menu.jpg" width="1032" /> Inside User accounts, click <strong>Add user account</strong>.<br />
+<br />
+<img alt="phpMyAdmin user account menu" height="639" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-user-account-menu.jpg" width="1290" /> Type a preferred name in the empty field to the right of <strong>User name</strong>​​​​.<br />
+<br />
+From the dropdown next to <strong>Host name</strong>, select <strong>Any host</strong>.<br />
+<br />
+Fill the <strong>Password</strong> field and retype it inside the <strong>Re-type </strong>field to confirm your password.<br />
+<br />
+<img alt="phpMyAdmin user account creation page" height="599" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-user-account-creation-page.jpg" width="1165" /> Scroll to the bottom of that page and click <strong>Go​​​​</strong>.<br />
+<br />
+Below the query snippet on the next page, select <strong>Database</strong>. Then choose the database you created earlier from the list that appears and click <strong>Go</strong>.<br />
+<br />
+<img alt="phpMyAdmin database privilege settings" height="650" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-database-privilege-settings.jpg" width="1231" /> Tick the <strong>Check all </strong>box on the next page to assign WordPress admin privileges to your database. Click <strong>Go</strong> to complete the database and phpMyAdmin set up.<br />
+<br />
+<img alt="phpMyAdmin database privilege settings menu" height="765" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/phpMyAdmin-database-privilege-settings-menu.jpg" width="1369" />
+<h2>4. Install WordPress</h2>
+Once you&#39;re through with the initial setups described previously, head back to WordPress localhost to fill in the required detail.<br />
+<br />
+<img alt="Setting up WordPress with the database" height="815" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/Setting-up-WordPress-with-the-database.png" width="1444" /> For instance, if your database name is ABCD, type that in the <strong>Database Name</strong> field.<br />
+<br />
+Then proceed to input your database username and password in the corresponding fields.<br />
+<br />
+Type &quot;localhost&quot; in the <strong>Database Host</strong> field. Don&#39;t touch the <strong>Table Prefix </strong>field. Click <strong>Submit</strong> when you&#39;re through.<br />
+<br />
+On the next page, click <strong>Run the installation</strong>.<br />
+<br />
+<img alt="Run installation page" height="559" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/Run-installation-page.jpg" width="1173" /> Next, input a preferred title for your website, followed by your username and email address.<br />
+<br />
+<img alt="Installing worpress initial info set up" height="876" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/Installing-worpress-initial-info-set-up.jpg" width="1424" /> Copy the generated password and keep it somewhere safe for later use. Or change it at this point if you like. You can tick the <strong>Search engine visibility </strong>box to prevent web crawlers from accessing your website. That&#39;s up to you, though. But you can ignore it at this stage as you can change it later.<br />
+<br />
+Click <strong>Install WordPress</strong> to install WordPress on your local phpMyAdmin panel. You should now get a success message that looks like this:<br />
+<br />
+<img alt="WordPress installation success" height="694" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-installation-success.png" width="1481" /> Click <strong>Log In</strong> to go to the wp-admin login page.<br />
+<br />
+Fill in the <strong>Username</strong> field with the one you typed previously during installation and type your password into the Password field.<br />
+<br />
+Click <strong>Log In</strong> to access your WordPress dashboard.<br />
+&nbsp;
+<h2>5. Customize Your WordPress Website</h2>
+<img alt="WordPress-admin-dashboard" height="672" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-admin-dashboard-1.jpg" width="1357" /> Once you&#39;re in your dashboard, you can now customize your website frontend and backend as you like.<br />
+<br />
+WordPress doesn&#39;t come with a rich text editor by default. To start, let&#39;s install <strong>Classic Editor,</strong> a more flexible rich text editor for content creation.<br />
+<br />
+Look to the left bar and hover your cursor on <strong>Plugins</strong>. Then click <strong>Add New</strong>.<br />
+<br />
+Type Classic Editor in the search bar at the top-right side of the plugin page. Once it shows in the search result, click <strong>Install Now. </strong>Then click <strong>Activate </strong>to use the plugin.<br />
+<br />
+<img alt="WordPress plugin interface" height="739" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-plugin-interface.jpg" width="1531" />
+<h3>Create Extra Pages on WordPress</h3>
+You can add as many pages as you like on WordPress. To add or edit existing pages:<br />
+<br />
+On the sidebar, hover your cursor on <strong>Pages</strong>. Then select <strong>All Pages</strong>.<br />
+<br />
+You can select <strong>Privacy Policy </strong>to edit that page if you like.<br />
+<br />
+To create an About page on your WordPress website, for instance:<br />
+<br />
+Click <strong>Add New </strong>to create the new page.<br />
+<br />
+<img alt="WordPress add page menu" height="601" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-add-page-menu.jpg" width="1317" /> Type your page name in the title bar at the top of the editor. For instance, you can type &quot;About us&quot; for an About page.<br />
+<br />
+<img alt="WordPress New Page editor" height="630" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-New-Page-editor.jpg" width="1667" /> Like you would while writing your content, you can preview your new page, publish it immediately, schedule it, or draft it to fall back to it later.
+<h3>Install a&nbsp;WordPress Theme</h3>
+You can visit your new WordPress website by clicking the home widget at the top-left corner of your dashboard. You would&#39;ve probably seen that the default frontend looks bland. You can change that by installing a theme.<br />
+<br />
+To do that:<br />
+<br />
+Hover your cursor on <strong>Appearance</strong>, then click <strong>Themes</strong>. Click <strong>Add New </strong>to launch the theme browser.<br />
+<br />
+Picking a befitting theme depends on your need and what your website is all about. While we might not choose one for you, you can still pick from any of <a href="https://www.makeuseof.com/best-multipurpose-wordpress-themes/">these multipurpose themes</a>&nbsp;to save you time thinking about an appropriate one. Then search for it via the search bar at the top of the theme menu.<br />
+<br />
+The chosen theme, in this case, is Hestia. Once found, click <strong>Install</strong>, then&nbsp;<strong>Activate</strong>. Once activated,&nbsp;click&nbsp;<strong>Customize</strong> to tweak your frontend.<br />
+<br />
+<img alt="WordPress add themes menu" height="633" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-add-themes-menu.jpg" width="1149" />
+<h3>Add Site Icon, Customize Your Tagline, and Site Title</h3>
+<img alt="WordPress theme Hestia customization menu" height="783" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2021/10/WordPress-theme-Hestia-customization-menu.jpg" width="1482" /><br />
+Although a lot needs changing on the front end, let&#39;s give you a quick guide around the basic ones you need for now.<br />
+<br />
+To change or remove the default tagline, select <strong>Site Identity</strong> from the customization menu sidebar.<br />
+<br />
+Enter a preferred description in the <strong>Tagline&nbsp;</strong>field. Leave it blank if you don&#39;t need one.<br />
+<br />
+When you look further down the sidebar, you&#39;ll see a file field with instructions for uploading a site icon, also called a Favicon. That icon gets displayed on browsers&#39; tabs or whenever you share your website&#39;s link with someone.<br />
+<br />
+You can also use this option to upload a site logo and change the header background if you like.<br />
+<br />
+Although there are many customizations options on WordPress, they only require a few clicks around without writing any code.&nbsp;<br />
+<br />
+While customizing your website, you can also switch between PC, mobile, and tablet designs by selecting any of the icons at the bottom of the customization sidebar.<br />
+<br />
+<br />
+<br />
+<br />
+Unlike wordpress.com, where you get a readily-hosted website, wordpress.org gives you a fully-developed PHP-based source code. So you can customize it as you want.<br />
+<br />
+But you don&#39;t even need to touch the code if you&#39;re not familiar with PHP or programming. All you need is a couple of clicks here, and there and that&#39;s it.
+<h2></h2>
+
+
+
+
+
+
+
+
